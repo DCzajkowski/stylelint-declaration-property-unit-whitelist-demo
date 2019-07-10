@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-recommended",
+  "plugins": ["stylelint-declaration-property-unit-whitelist"],
+  "rules": {
+    "dczajkowski/declaration-property-unit-whitelist": {
+      "/^.*border.*/": ["px"],
+      "/^.*margin.*/": ["rem"],
+      "/^.*padding.*/": ["rem"]
+    }
+  }
+}
